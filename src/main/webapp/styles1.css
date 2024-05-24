@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+   body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://source.unsplash.com/random');
+        background-size: cover;
+        background-position: center;
+    }
+    .maincont {
+        width: 300px;
+        padding: 20px; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.9); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    label {
+        display: block;
+        color:black;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color:rgb(246, 88, 10);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover 
+    {
+        background-color: #218838; 
+    }
+    
+    

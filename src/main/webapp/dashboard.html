@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://source.unsplash.com/random');
+        background-size: cover;
+        background-position: center;
+    }
+    .maincontainer {
+        width: 300px;
+        padding: 20px; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: gray ;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+     
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color:rgb(246, 88, 10);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #218838; 
+    }
+</style>
+</head>
+<body>
+    <body>
+        <div class="maincontainer">
+        <h1>Welcome to the Dashboard</h1>
+ 
+        <a href= "students.html">Add Student</a>
+        <form action ="AllStudentController" method="post">
+            <br>
+            <div class="button">
+                
+        <button type="submit">view students details </button>
+    </div>
+        </form>
+    
+    </div>
+        </body>
+        </html>

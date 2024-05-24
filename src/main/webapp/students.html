@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Signup Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+        background-image: url('https://source.unsplash.com/random');
+        background-size: cover;
+        background-position: center;
+    }
+    .maincontainer {
+        width: 300px;
+        padding: 20px; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.9); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    label {
+        display: block;
+        color:black;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color:rgb(246, 88, 10);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #218838; 
+    }
+</style>
+</head>
+<body>
+
+    <div class="maincontainer">
+    
+    <h1 style= "color:navy;">Login here</h1>
+    
+    <form action="studentlogincontroller" method="post"><br><br>
+        <label for="id">Id</label>
+        <input type ="number" name="id" placeholder="id"><br><br>
+        <label for="name">name</label>
+        <input type="text" name="sname" placeholder="sname"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="email"><br><br>
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" placeholder="phone"><br><br>
+        <label for="stream">Stream</label>
+        <input type ="text" name="stream" placeholder="stream"><br><br>
+        <label for="clgname">College Name</label>
+        <input type ="text" name="clgname" placeholder="clgname"><br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type ="date" name="DOB" placeholder="DOB"><br><br>
+        <label for="city">City</label>
+        <input type ="text" name="city" placeholder="city"><br><br>
+        <label for="state">State</label>
+        <input type ="text" name="state" placeholder="state"><br><br>
+        <label for="country">Country</label>
+        <input type ="text" name="country" placeholder="country"><br><br>
+        <label for="zip">Zip Code</label>
+        <input type ="number" name="zip" placeholder="zip"><br><br>
+        
+        <button type="submit" value="Added Details">Add Details
+        </button>
+
+        </form>
+        </div>
+        
+</body>
+</html>
